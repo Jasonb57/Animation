@@ -7,6 +7,15 @@ h3 {
   font-size: 2em;
   font-family: 'Stardos Stencil', cursive;
 }
+h4 {
+  display:inline;
+  font-size: 2em;
+  font-family: 'Stardos Stencil', cursive;
+}
+h5{
+  display:inline;
+  font-family: 'Fira Sans', sans-serif;
+}
 p{
   font-family: 'Fira Sans', sans-serif;
 }
@@ -113,8 +122,6 @@ animation-fill-mode: forwards
 }
 
 #nav-1{
-top: 26vh;
-left:20vw;
 width: 10vw;
 height: 9.5vh;
 line-height: 10px;
@@ -147,9 +154,9 @@ animation-fill-mode: forwards
 /* animation: forwards; */
 }
 @keyframes nav-2 {
-    0%   {background-color: rgb(27, 22, 35); left:44.8vw; top:25vh;}
-    40%   {background-color: rgb(27, 22, 35); left:44.8vw; top:25vh;}
-    100% {background-color:white; left:44.8vw; top:26vh;}
+    0%   {background-color: rgb(27, 22, 35); left:45.5%; top:25vh;}
+    40%   {background-color: rgb(27, 22, 35); left:45.5%; top:25vh;}
+    100% {background-color:white; left:45.5%; top:26vh;}
 }
 
 #nav-3{
@@ -274,8 +281,226 @@ animation-fill-mode: forwards
   top: 140vh;
   width: 300px;
   height: 10px;
-  position: absolute;
+  position: relative;
 }
+
+
+/* Quotes */
+#q1 em {
+  font-size: 14px;
+  color: rgb(27, 22, 35);
+}
+#q2 em {
+  font-size: 14px;
+  color: rgb(27, 22, 35);
+}
+#q3 em {
+  font-size: 14px;
+  color: rgb(27, 22, 35);
+}
+#q4 em {
+  font-size: 14px;
+  color: rgb(27, 22, 35);
+}
+#q5 em {
+  font-size: 14px;
+  color: rgb(27, 22, 35);
+}
+#q6 em {
+  font-size: 14px;
+  color: rgb(27, 22, 35);
+}
+/* .q1-box{
+position: absolute;
+margin: 45vh 10vw;
+padding: 10px 10px;
+background-color: white;
+border-radius: 10px;
+transition: all 1s;
+}
+.q1-box:hover {
+  width: 300px;
+  color: white;
+  background-color: orange;
+} */
+#q1{
+left: 5vw;
+top: 50vh;
+padding: 30px 50px;
+border: 5vh 10vw;
+padding-left: 20px;
+padding-right:10px;
+line-height: 10px;
+background-color: rgb(27, 22, 35);
+color: white;
+position: absolute;
+border-radius: 10px;
+transition: all 1s;
+/* animation: forwards; */
+}
+#q1:hover {
+background-color: white;
+transition-timing-function: ease-in-out;
+}
+
+
+#q2{
+left: 5vw;
+top: 65vh;
+padding: 30px 50px;
+border: 5vh 10vw;
+padding-left: 20px;
+padding-right:10px;
+line-height: 10px;
+background-color: rgb(27, 22, 35);
+color: white;
+position: absolute;
+border-radius: 10px;
+transition: all 1s;
+animation-duration: 1.5s;
+/* animation: forwards; */
+}
+#q2:hover {
+background-color: white;
+transition-timing-function: ease-in-out;
+}
+
+#q3{
+left: 5vw;
+top: 80vh;
+padding: 30px 50px;
+border: 5vh 10vw;
+padding-left: 20px;
+padding-right:10px;
+line-height: 10px;
+background-color: rgb(27, 22, 35);
+color: white;
+position: absolute;
+border-radius: 10px;
+transition: all 1s;
+/* animation: forwards; */
+}
+#q3:hover {
+background-color: white;
+transition-timing-function: ease-in-out;
+}
+
+#q4{
+left: 5vw;
+top: 95vh;
+padding: 30px 50px;
+border: 5vh 10vw;
+padding-left: 20px;
+padding-right:10px;
+line-height: 10px;
+background-color: rgb(27, 22, 35);
+color: white;
+position: absolute;
+border-radius: 10px;
+transition: all 1s;
+/* animation: forwards; */
+}
+#q4:hover {
+background-color: white;
+transition-timing-function: ease-in-out;
+}
+
+#q5{
+left: 5vw;
+top: 110vh;
+padding: 30px 50px;
+border: 5vh 10vw;
+padding-left: 20px;
+padding-right:10px;
+line-height: 10px;
+background-color: rgb(27, 22, 35);
+color: white;
+position: absolute;
+border-radius: 10px;
+transition: all 1s;
+/* animation: forwards; */
+}
+#q5:hover {
+background-color: white;
+transition-timing-function: ease-in-out;
+}
+
+#q6{
+left: 5vw;
+top: 125vh;
+padding: 30px 50px;
+border: 5vh 10vw;
+padding-left: 20px;
+padding-right:10px;
+line-height: 10px;
+background-color: rgb(27, 22, 35);
+color: white;
+position: absolute;
+border-radius: 10px;
+transition: all 1s;
+/* animation: forwards; */
+}
+#q6:hover {
+background-color: white;
+transition-timing-function: ease-in-out;
+}
+
+/* Gallery */
+
+.column {
+    float: left;
+}
+
+.sa1 {
+  width: 360px;
+  height: 225px;
+  margin-top: 25%;
+  margin-left: 3%;
+  background: url(../img/ss1.png);
+}
+.sa1:hover{
+  animation: ss1 1.5s steps(10) infinite;
+
+}
+@keyframes ss1 {
+    100% { background-position: -3600px; }
+}
+
+.sa2 {
+  display: block;
+  width: 360px;
+  height: 225px;
+  margin-top: 25%;
+  margin-left: 36%;
+  position: absolute;
+  background: url(../img/ss2.png);
+}
+.sa2:hover{
+  animation: ss2 1.5s steps(10) infinite;
+
+}
+@keyframes ss2 {
+    100% { background-position: -3600px; }
+}
+
+.sa3 {
+  display: block;
+  width: 360px;
+  height: 225px;
+  margin-top: 25%;
+  margin-left: 69%;
+  position: absolute;
+  background: url(../img/ss3.png);
+}
+.sa3:hover{
+  animation: ss2 1.5s steps(10) infinite;
+
+}
+@keyframes ss3 {
+    100% { background-position: -3600px; }
+}
+
+
 
 
 
